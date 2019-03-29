@@ -30,7 +30,7 @@
     background-color: orangered;
 }
 
-#menu li :visited{
+#menu li :target{
     background-color: orangered;
 }
 
@@ -61,4 +61,106 @@
     font-family: 'New Rocker', cursive;
 }
 
+#descri{
+    text-align: center;
+    font-size: 150%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
+#title{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'New Rocker', cursive;
+    font-size: 300%;
+}
+
+#sprts1{
+    width: 550px;
+    text-align: center;
+}
+
+#sprts2{
+    width: 410px;
+    text-align: center;
+}
+
+#SB1{
+    width: 600px;
+    text-align: center;
+}
+
+#fatbob{
+    width: 400px;
+    text-align: center;
+}
+
+#sft{
+    width: 400px;
+    text-align: center;
+}
+
+#fatboy{
+    width: 500px;
+    text-align: center;
+}
+
+#dlx{
+    width: 510px;
+    text-align: center;
+}
+
+#sportg{
+    width: 470px;
+    text-align: center;
+}
+
+#bk114{
+    width: 500px;
+    text-align: center;
+}
+
+#fxdr{
+    width: 420px;
+    text-align: center;
+}
+
+#rks{
+    width: 400px;
+    text-align: center;
+}
+
+#sgs{
+    width: 400px;
+    text-align: center;
+}
+
+#ultral{
+    width: 400px;
+    text-align: center;
+}
+
+#rgs{
+    width: 400px;
+    text-align: center;
+}
+
+#rgu{
+    width: 400px;
+    text-align: center;
+}
+
+#csg{
+    width: 400px;
+    text-align: center;
+}
+
+#crg{
+    width: 400px;
+    text-align: center;
+}
+
+#clim{
+    width: 400px;
+    text-align: center;
+}
