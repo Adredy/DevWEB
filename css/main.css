@@ -3,35 +3,32 @@
     margin-right: 0%;
     display: block;
     width: 50%;
-    height: 300px;
+    height: 40%;
     margin-top: 0%;
 }
 
 #menu{
     list-style: none;
-    margin-left: -35px;
-    
+    padding: 0px;
+    margin: 0px;   
 }
 #menu li{
-    display: inline-block;
+    display: inline;
 }
 
 #menu li a{
+    display: inline-block;
     background-color: black;
     text-decoration: none;
-    padding: 16px 108.1px;
     color: white;
-    margin-left: -5px;
+    padding: 1% 7.93%;
     font-family: 'New Rocker', cursive;
     font-size: 110%;
 }
 
 #menu li :hover{
     background-color: orangered;
-}
-
-#menu li :target{
-    background-color: orangered;
+    color: black;
 }
 
 #imgps{
@@ -43,10 +40,13 @@
 #pmain{
     margin-top: 50px;
     margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #pmain2{
     margin-top: 200px;
     margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 #rodape{
     background-image: url(../images/footer.jpg);
@@ -75,54 +75,55 @@
     font-size: 300%;
 }
 
+#imgs{
+    display: inline;
+}
+
+#subt{
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 150%;
+}
+
 #sprts1{
     width: 550px;
-    text-align: center;
 }
 
 #sprts2{
     width: 410px;
-    text-align: center;
 }
 
 #SB1{
     width: 600px;
-    text-align: center;
 }
 
 #fatbob{
     width: 400px;
-    text-align: center;
 }
 
 #sft{
     width: 400px;
-    text-align: center;
 }
 
 #fatboy{
     width: 500px;
-    text-align: center;
 }
 
 #dlx{
     width: 510px;
-    text-align: center;
+    margin-bottom: -9%;
 }
 
 #sportg{
     width: 470px;
-    text-align: center;
 }
 
 #bk114{
     width: 500px;
-    text-align: center;
 }
 
 #fxdr{
     width: 420px;
-    text-align: center;
 }
 
 #rks{
