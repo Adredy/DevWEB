@@ -3,22 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>HD Softail</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body id="body">
         <header>
                 <div id="cabeca" style="background-color:black">
                     <img src="../images/Headerhd.jpg" alt="HD Logo" id="imghead">
         
-                    <ul id="menu">
-                        <li><a href="../html/index.html">Home</a></li>
-                        <li><a href="../html/sportster.html">Sportster</a></li>
-                        <li><a href="../html/softail.html">Softail</a></li>
-                        <li><a href="../html/touring.html">Touring</a></li>
-                        <li><a href="../html/cvo.html">CVO</a></li>
-                    </ul>
+                    <ul class="nav nav-pills nav-justified flex-column flex-sm-row" id="menu">
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/sportster.html">Sportster</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/softail.html" style="color: orangered">Softail</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../html/touring.html">Touring</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/cvo.html">CVO</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Grafico</a>
+                        </li>
+                      </ul>
                 </div>
             </header>
 
@@ -29,7 +43,94 @@
                 A tradição autêntica e o espírito custom se encontram com o toque moderno e a tecnologia para criarem, juntos, uma experiência de pilotagem inédita. 
             </p>
 
-            <div id="imgs">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                        <img src="../images/Softail/street bob.png" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                        <p class="card-text">Street Bob</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/fat bob.jpg" class="card-img-top" style="width: 350px; margin:auto">
+                        <div class="card-body">
+                        <p class="card-text">Fat Bob</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/softail slim.jpg" class="card-img-top" style="width: 400px; margin: auto">
+                        <div class="card-body">
+                        <p class="card-text">Softail Slim</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/fat boy.jpg" class="card-img-top" style="width: 400px; margin: auto">
+                        <div class="card-body">
+                        <p class="card-text">Fat Boy</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/deluxe.jpg" class="card-img-top" style="width: 400px; margin:auto">
+                        <div class="card-body">
+                        <p class="card-text">Deluxe</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/sport glide.jpg" class="card-img-top" style="width: 350px; margin:auto">
+                        <div class="card-body">
+                        <p class="card-text">Sport Glide</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/breakout 114.jpg" class="card-img-top" style="width: 400px; margin:auto">
+                        <div class="card-body">
+                        <p class="card-text">Breakout 114</p>
+                        </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                        <img src="../images/Softail/fxdr 114.jpg" class="card-img-top" style="width: 350px; margin:auto">
+                        <div class="card-body">
+                        <p class="card-text">FXDR 114</p>
+                        </div>
+                        </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+            <!--<div id="imgs">
                 <div style="display:inline-block; margin-left: 4%">
                     <figure>
                     <img src="../images/Softail/street bob.png" id="SB1">
@@ -85,7 +186,7 @@
                     <figcaption id="subt">FXDR 114</figcaption>
                     </figure>
                 </div>
-            </div>
+            </div>-->
 
 
         </main>
@@ -100,6 +201,8 @@
                     </div>
             
         </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

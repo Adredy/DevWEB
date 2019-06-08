@@ -6,29 +6,18 @@
     height: 40%;
     margin-top: 0%;
 }
-
-#menu{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;   
-}
-#menu li{
-    display: inline;
-}
-
-#menu li a{
-    display: inline-block;
+#body{
     background-color: black;
+}
+#menu li a{
     text-decoration: none;
     color: white;
-    padding: 1% 7.93%;
     font-family: 'New Rocker', cursive;
-    font-size: 110%;
+    font-size: 130%;
 }
 
 #menu li :hover{
-    background-color: orangered;
-    color: black;
+    color:orangered;
 }
 
 #imgps{
@@ -41,12 +30,15 @@
     margin-top: 50px;
     margin-left: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 #pmain2{
     margin-top: 200px;
     margin-left: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+}
+#parag{
+    color: white;
 }
 #rodape{
     background-image: url(../images/footer.jpg);
@@ -66,6 +58,7 @@
     font-size: 150%;
     padding-left: 200px;
     padding-right: 200px;
+    color: white;
 }
 
 #title{
@@ -73,6 +66,7 @@
     padding-top: 20px;
     font-family: 'New Rocker', cursive;
     font-size: 300%;
+    color: orangered;
 }
 
 #imgs{
@@ -111,7 +105,6 @@
 
 #dlx{
     width: 510px;
-    margin-bottom: -9%;
 }
 
 #sportg{
@@ -128,40 +121,41 @@
 
 #rks{
     width: 400px;
-    text-align: center;
 }
 
 #sgs{
     width: 400px;
-    text-align: center;
 }
 
 #ultral{
     width: 400px;
-    text-align: center;
 }
 
 #rgs{
     width: 400px;
-    text-align: center;
 }
 
 #rgu{
     width: 400px;
-    text-align: center;
 }
 
 #csg{
     width: 400px;
-    text-align: center;
 }
 
 #crg{
     width: 400px;
-    text-align: center;
 }
 
 #clim{
     width: 400px;
+}
+
+.card{
+    width: 500px;
     text-align: center;
+    margin: auto;
+    font-family: 'New Rocker', cursive;
+    font-size: 130%;
+    margin-top: 3%;
 }

@@ -5,20 +5,43 @@
     <title>HD Home</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body id="body">
     
     <header>
         <div id="cabeca" style="background-color:black">
             <img src="../images/Headerhd.jpg" alt="HD Logo" id="imghead">
 
-            <ul id="menu">
+            <ul class="nav nav-pills nav-justified flex-column flex-sm-row" id="menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/index.html" style="color: orangered"
+                  id="selec">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/sportster.html">Sportster</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/softail.html">Softail</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/touring.html">Touring</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/cvo.html">CVO</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gráfico</a>
+                </li>
+              </ul>
+            <!--<ul id="menu">
                 <li><a href="../html/index.html">Home</a></li>
                 <li><a href="../html/sportster.html">Sportster</a></li>
                 <li><a href="../html/softail.html">Softail</a></li>
                 <li><a href="../html/touring.html">Touring</a></li>
                 <li><a href="../html/cvo.html">CVO</a></li>
-            </ul>
+            </ul>-->
         </div>
     </header>
 
@@ -31,7 +54,7 @@
 
                 Além disso, possuem:
                 <p>
-                    <ul>
+                    <ul id="parag">
                         <li>Experiências e eventos de motociclismo</li>
                         <li>Acessórios para personalizar as motocicletas</li>
                         <li>Equipamentos e roupas de motociclismo para piloto e passageiro</li>
@@ -43,9 +66,9 @@
                 </p>
 
         <p id="pmain2"><img src="../images/home2.jpg" id="imgps">
-            <p>Em todo o mundo, a Harley-Davidson cria vínculos profundos entre pessoas apaixonadas e autênticas. De cidade em cidade, país em país, o ideal de liberdade e autoexpressão da H-D transcende culturas, gênero e idade. Ser conhecida como um ícone é gratificante, mas inflamar a chama da liberdade nas pessoas nas diversas estradas do mundo é a nossa missão.</p>
-            <p>Cada motociclista da Harley-Davidson® tem uma história. Mas o que todos têm em comum, seja qual for a idade, o gênero e a etnia, é a paixão pela liberdade, a busca pela aventura e os valores da Harley-Davidson estampados na alma, que são independência, autenticidade e paixão pela estrada aberta.</p>
-            <p>Na nossa missão de criar a próxima geração de motociclistas do mundo, damos as boas-vindas aos que querem compartilhar desses valores e têm um desejo verdadeiro de curtir o mundo sentado numa motocicleta.</p>
+            <p id="parag">Em todo o mundo, a Harley-Davidson cria vínculos profundos entre pessoas apaixonadas e autênticas. De cidade em cidade, país em país, o ideal de liberdade e autoexpressão da H-D transcende culturas, gênero e idade. Ser conhecida como um ícone é gratificante, mas inflamar a chama da liberdade nas pessoas nas diversas estradas do mundo é a nossa missão.</p>
+            <p id="parag">Cada motociclista da Harley-Davidson® tem uma história. Mas o que todos têm em comum, seja qual for a idade, o gênero e a etnia, é a paixão pela liberdade, a busca pela aventura e os valores da Harley-Davidson estampados na alma, que são independência, autenticidade e paixão pela estrada aberta.</p>
+            <p id="parag">Na nossa missão de criar a próxima geração de motociclistas do mundo, damos as boas-vindas aos que querem compartilhar desses valores e têm um desejo verdadeiro de curtir o mundo sentado numa motocicleta.</p>
         </p>
 
     </main>
@@ -60,5 +83,9 @@
         </div>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
