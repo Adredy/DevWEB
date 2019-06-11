@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>HD Home</title>
+    <title>HD Gráfico Preços</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="../html/cvo.html">CVO</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../html/grafico.html" style="color: orangered">Gráfico</a>
+                    <a class="nav-link" href="../html/grafico.html" style="color: orangered">Gráfico de Preços</a>
                 </li>
               </ul>
         </div>
@@ -47,17 +47,47 @@
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['Iron 883', 'Iron 1200'],
+                        labels: ['Iron 883', 'Iron 1200', 'Street Bob', 'Fat bob', 'Softail Slim', 'Fat Boy', 'Sport Glide', 'Breakout 114', 'FXDR 114', 'Road King Sprecial', 'Street Glide Special', 'Ultra Limited', 'Road Glide Special', 'Road Glide Ultra', 'CVO Street Glide', 'CVO Road Glide', 'CVO Limited'],
                         datasets: [{
-                            label: 'Sportster',
-                            data: ['43500', '46900'],
+                            label: 'Preço (R$)',
+                            data: ['43500', '46900', '61900', '65900', '68900', '72900', '72900', '74900', '77900', '82200', '83400', '96400', '103900', '98400', '102900', '155900', '155900', '172900'],
                             backgroundColor: [
-                                'khaki',
-                                'lightblue'
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
+                                'orangered',
+                                'gray',
                             ],
                             borderColor: [
-                                'yellow',
-                                'blue'
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
+                                'white',
                             ],
                             borderWidth: 2
                         }]
@@ -70,7 +100,15 @@
                                     beginAtZero: true
                                 }
                             }]
-                        }
+                        },
+                        layout: {
+                                    padding: {
+                                        left: 0,
+                                        right: 0,
+                                        top: 0,
+                                        bottom: 0
+                                    }
+                            }
                     }
                 });
                 </script>
